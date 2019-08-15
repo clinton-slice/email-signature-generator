@@ -1,4 +1,21 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About the App
+
+The app generates email signature for employees in a company. the generated signature can also be downloaded as png file.
+
+## Project dependencies 
+* Redux
+
+### `npm install --save redux`
+
+* react-redux
+
+### `npm install --save react-redux`
+
+* dom-to-node
+
+### `npm install dom-to-image`
+
 
 ## Available Scripts
 
