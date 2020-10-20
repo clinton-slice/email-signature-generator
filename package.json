@@ -6,7 +6,7 @@
     "acorn": "^8.0.4",
     "dom-to-image": "^2.6.0",
     "eslint-webpack-plugin": "^2.1.0",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.3",
     "node-forge": "^0.10.0",
     "object-path": "^0.11.5",
     "react": "^16.9.0",
