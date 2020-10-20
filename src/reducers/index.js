@@ -1,6 +1,6 @@
 import {combineReducers} from "redux";
 
-const employeesReducer = () => {
+export const employeesReducer = () => {
     return [
         {id: 1, name: 'Julia A. Slanina', position: 'Founder & CEO', phone: '613-321-4567 Ex 100', fax: '613-867-5309', email: 'jslanina@treehousemedicals.ca'},
         {id: 2, name: 'Clinton C. Nkemdilim', position: 'Frontend Developer', phone: '613-321-4567 Ex 100', fax: '613-867-5309', email: 'cnkemdilim@treehousemedicals.ca'},
@@ -13,7 +13,7 @@ const employeesReducer = () => {
     ]
 };
 
-const selectedEmployeeReducer = (selectedEmployee = null, action) => {
+export const selectedEmployeeReducer = (selectedEmployee = null, action) => {
     if (action.type === 'SELECT_EMPLOYEE') {
         return action.payload
     }

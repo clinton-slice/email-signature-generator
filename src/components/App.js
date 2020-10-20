@@ -1,6 +1,6 @@
 import React from 'react';
-import EmployeeList from "./EmployeeList";
-import PreviewSignature from './PreviewSignature'
+import EmployeeList from "./EmployeeList/EmployeeList";
+import PreviewSignature from './PreviewSignature/PreviewSignature'
 
 const App = () => {
     return (
